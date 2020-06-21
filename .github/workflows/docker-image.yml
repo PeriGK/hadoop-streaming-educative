@@ -14,6 +14,6 @@ jobs:
     - name: Publish to Registry
       uses: HurricanKai/Publish-Docker-Github-Action@master
       with:
-        name: periperi/hadoop-streaming-educative
+        name: periperi/hadoop-streaming-educative:$(date +%s)
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
