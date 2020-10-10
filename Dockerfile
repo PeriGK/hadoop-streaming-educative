@@ -9,3 +9,4 @@ COPY myentrypoint.sh myentrypoint.sh
 RUN chmod +x entrypoint.sh
 RUN chmod +x -R src/
 RUN chmod +x myentrypoint.sh
+
